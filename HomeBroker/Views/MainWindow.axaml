@@ -1,40 +1,54 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:vm="using:HomeBroker.ViewModel"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:vm="clr-namespace:HomeBroker.ViewModels"
+        xmlns:views="clr-namespace:HomeBroker.Views"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="400"
+        xmlns:graph="clr-namespace:HomeBroker.ViewModels.Graph"
+        xmlns:avalonia="clr-namespace:LiveChartsCore.SkiaSharpView.Avalonia;assembly=LiveChartsCore.SkiaSharpView.Avalonia"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
         x:Class="HomeBroker.Views.MainWindow"
-        Title="HomeBroker">
-
+        Title="HomeBroker"
+        x:DataType="graph:GraphViewModel">
+    <!-- -->
+    <!-- <StackPanel> -->
+    <!--     <Border Margin="5" -->
+    <!--             CornerRadius="2" -->
+    <!--             Background="LightGreen"> -->
+    <!--         <TextBlock -->
+    <!--             Margin="5" -->
+    <!--             FontSize="23" -->
+    <!--             HorizontalAlignment="Center" -->
+    <!--             Text="Temperature Converter" /> -->
+    <!--     </Border> -->
+    <!--     <Grid -->
+    <!--         ShowGridLines="true" -->
+    <!--         ColumnDefinitions="100 100" -->
+    <!--         RowDefinitions="Auto, Auto, Auto"> -->
+    <!--         <Label Grid.Column="0" Grid.Row="0">Celsius</Label> -->
+    <!--         <TextBox Grid.Column="1" Grid.Row="0" Name="Celsius" -->
+    <!--                  TextChanged="OnCelsiusToFahreingth" /> -->
+    <!-- -->
+    <!--         <Label Grid.Row="1" Grid.Column="0">Fahrenheit</Label> -->
+    <!--         <TextBox Grid.Column="1" Grid.Row="1" Name="Fah" -->
+    <!--                  TextChanged="OnFahreingToCelsius" /> -->
+    <!--         <Button Grid.Row="2" Grid.Column="0" -->
+    <!--                 Margin="0 20 0 0 " -->
+    <!--                 HorizontalAlignment="Center" -->
+    <!--                 Click="ButtonBase_OnClick"> -->
+    <!--             Calculate -->
+    <!--         </Button> -->
+    <!-- -->
+    <!--     </Grid> -->
+    <!-- <views:GraphCandle  /> -->
+    <!-- </StackPanel> -->
+    
     <Design.DataContext>
-        <vm:CadastroViewModel />
+        <graph:GraphViewModel />
     </Design.DataContext>
-
-    <StackPanel>
-        <Border Margin="5"
-                CornerRadius="2"
-                Background="LightGreen">
-            <TextBlock
-                Margin="5"
-                FontSize="23"
-                HorizontalAlignment="Center"
-                Text="Temperature Converter" />
-        </Border>
-        <Grid
-            ShowGridLines="true"
-            ColumnDefinitions="120 100"
-            RowDefinitions="Auto, Auto, Auto">
-            <Label Grid.Column="0" Grid.Row="0">Celsius</Label>
-            <TextBox Grid.Column="1" Grid.Row="0" />
-
-            <Label Grid.Row="1" Grid.Column="0">Fahrenheit</Label>
-            <TextBox Grid.Column="1" Grid.Row="1" />
-            <Button Grid.Row="3" Grid.Column="0"
-                    Margin="0 20 0 0 "
-                    HorizontalAlignment="Center">
-                Calculate
-            </Button>
-        </Grid>
-    </StackPanel>
+    <avalonia:CartesianChart
+        Series="{Binding Series}"
+        Title="{Binding Title}"
+        XAxes="{Binding XAxes}">
+    </avalonia:CartesianChart>
 </Window>

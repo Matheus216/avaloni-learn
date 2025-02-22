@@ -6,6 +6,8 @@
         <entry key="App.axaml" value="HomeBroker.csproj" />
         <entry key="MainWindow.axaml" value="HomeBroker.csproj" />
         <entry key="ViewModel/Cadastro.axaml" value="HomeBroker.csproj" />
+        <entry key="Views/GraphCandle.axaml" value="HomeBroker.csproj" />
+        <entry key="Views/MainWindow.axaml" value="HomeBroker.csproj" />
       </map>
     </option>
   </component>

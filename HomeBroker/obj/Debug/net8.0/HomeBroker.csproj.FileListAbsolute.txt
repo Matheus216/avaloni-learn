@@ -28,8 +28,12 @@
 /home/m2dev/Documents/code/POC/HomeBroker/bin/Debug/net8.0/Avalonia.Win32.dll
 /home/m2dev/Documents/code/POC/HomeBroker/bin/Debug/net8.0/Avalonia.X11.dll
 /home/m2dev/Documents/code/POC/HomeBroker/bin/Debug/net8.0/HarfBuzzSharp.dll
+/home/m2dev/Documents/code/POC/HomeBroker/bin/Debug/net8.0/LiveChartsCore.dll
+/home/m2dev/Documents/code/POC/HomeBroker/bin/Debug/net8.0/LiveChartsCore.SkiaSharpView.dll
+/home/m2dev/Documents/code/POC/HomeBroker/bin/Debug/net8.0/LiveChartsCore.SkiaSharpView.Avalonia.dll
 /home/m2dev/Documents/code/POC/HomeBroker/bin/Debug/net8.0/MicroCom.Runtime.dll
 /home/m2dev/Documents/code/POC/HomeBroker/bin/Debug/net8.0/SkiaSharp.dll
+/home/m2dev/Documents/code/POC/HomeBroker/bin/Debug/net8.0/SkiaSharp.HarfBuzz.dll
 /home/m2dev/Documents/code/POC/HomeBroker/bin/Debug/net8.0/System.IO.Pipelines.dll
 /home/m2dev/Documents/code/POC/HomeBroker/bin/Debug/net8.0/Tmds.DBus.Protocol.dll
 /home/m2dev/Documents/code/POC/HomeBroker/bin/Debug/net8.0/runtimes/win-arm64/native/av_libglesv2.dll
@@ -59,9 +63,11 @@
 /home/m2dev/Documents/code/POC/HomeBroker/obj/Debug/net8.0/HomeBroker.AssemblyInfoInputs.cache
 /home/m2dev/Documents/code/POC/HomeBroker/obj/Debug/net8.0/HomeBroker.AssemblyInfo.cs
 /home/m2dev/Documents/code/POC/HomeBroker/obj/Debug/net8.0/HomeBroker.csproj.CoreCompileInputs.cache
+/home/m2dev/Documents/code/POC/HomeBroker/obj/Debug/net8.0/HomeBroker.sourcelink.json
 /home/m2dev/Documents/code/POC/HomeBroker/obj/Debug/net8.0/Avalonia/HomeBroker.dll
 /home/m2dev/Documents/code/POC/HomeBroker/obj/Debug/net8.0/Avalonia/HomeBroker.pdb
 /home/m2dev/Documents/code/POC/HomeBroker/obj/Debug/net8.0/refint/Avalonia/HomeBroker.dll
 /home/m2dev/Documents/code/POC/HomeBroker/obj/Debug/net8.0/HomeBroker.csproj.CopyComplete
 /home/m2dev/Documents/code/POC/HomeBroker/obj/Debug/net8.0/HomeBroker.genruntimeconfig.cache
 /home/m2dev/Documents/code/POC/HomeBroker/obj/Debug/net8.0/ref/HomeBroker.dll
+/home/m2dev/Documents/code/POC/HomeBroker/bin/Debug/net8.0/CommunityToolkit.Mvvm.dll

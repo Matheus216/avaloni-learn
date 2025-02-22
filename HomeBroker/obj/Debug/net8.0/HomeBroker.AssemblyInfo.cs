@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HomeBroker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57c3c1080d6e471ebaba78e938438d91af5802d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("HomeBroker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HomeBroker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
